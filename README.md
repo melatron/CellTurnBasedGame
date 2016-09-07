@@ -4,7 +4,7 @@ Turn based mobile game.
 
 This is my first mobile game written in c++. It is not published, but in future time i will definitely release it for iOS and Android. 
 
-<img src="screenshots/menu.jpg" width="500" />
+<img src="screenshots/menu.png"  />
 
 - Release date: --
 - Time to write the game - ~80 hours spread over 4 months.
@@ -15,5 +15,5 @@ This is my first mobile game written in c++. It is not published, but in future 
 
 Here are a bunch of screenshots:
 
-<img src="screenshots/world1.jpg" width="500" />
-<img src="screenshots/world2.jpg" width="500" />
+<img src="screenshots/world1.png"  />
+<img src="screenshots/world2.png"  />

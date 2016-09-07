@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Readers">
+      <UniqueIdentifier>{25e0183e-a935-4466-b329-d5858f62a24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Commands">
+      <UniqueIdentifier>{d121b690-7744-47a6-baf1-8127666e09a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Abstraction">
+      <UniqueIdentifier>{451ae465-ccc6-445b-aee2-83832429a1f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\EnemyBehaviours">
+      <UniqueIdentifier>{435429c7-dc71-4e87-90ae-d50003f830af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Effects">
+      <UniqueIdentifier>{6aa1bc86-4c90-40b6-be17-862eb36311c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Buffers">
+      <UniqueIdentifier>{c7c6cac9-f65c-4afd-a13e-2b7172ea1043}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GridController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Hero.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GridControllerReader.cpp">
+      <Filter>src\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HeroReader.cpp">
+      <Filter>src\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameActor.cpp">
+      <Filter>src\Abstraction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameObject.cpp">
+      <Filter>src\Abstraction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MoveCommand.cpp">
+      <Filter>src\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EnemyReader.cpp">
+      <Filter>src\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Behaviour.cpp">
+      <Filter>src\EnemyBehaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Zombie.cpp">
+      <Filter>src\EnemyBehaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EnergyInstantEffect.cpp">
+      <Filter>src\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HealthInstantEffect.cpp">
+      <Filter>src\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Effect.cpp">
+      <Filter>src\Abstraction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Cell.cpp" />
+    <ClCompile Include="..\Classes\CellReader.cpp" />
+    <ClCompile Include="..\Classes\CloneCommand.cpp" />
+    <ClCompile Include="..\Classes\ActorModifier.cpp">
+      <Filter>src\Abstraction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ConsumedActorModifier.cpp">
+      <Filter>src\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Cell.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CellReader.cpp">
+      <Filter>src\Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CloneCommand.cpp">
+      <Filter>src\Commands</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GridController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Constants.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Cell.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Hero.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GridControllerReader.h">
+      <Filter>src\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CellReader.h">
+      <Filter>src\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HeroReader.h">
+      <Filter>src\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Command.h">
+      <Filter>src\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameActor.h">
+      <Filter>src\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameObject.h">
+      <Filter>src\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MoveCommand.h">
+      <Filter>src\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DefaultCommand.h">
+      <Filter>src\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CloneCommand.h">
+      <Filter>src\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnemyReader.h">
+      <Filter>src\Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Behaviour.h">
+      <Filter>src\EnemyBehaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Zombie.h">
+      <Filter>src\EnemyBehaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Effect.h">
+      <Filter>src\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EnergyInstantEffect.h">
+      <Filter>src\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HealthInstantEffect.h">
+      <Filter>src\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ActorModifier.h">
+      <Filter>src\Abstraction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ConsumedActorModifier.h">
+      <Filter>src\Buffers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

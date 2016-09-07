@@ -1,0 +1,20 @@
+<Solution>
+  <PropertyGroup Name="CellTurnBasedGame" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="Assets">
+          <Image Name="70x70-Hexagon.png" />
+          <Image Name="enemy-hexagon.png" />
+          <Image Name="hero-hexagon.png" />
+          <Image Name="Hexagon.png" />
+        </Folder>
+        <Project Name="Cell.csd" Type="Node" />
+        <Project Name="Enemy.csd" Type="Node" />
+        <Project Name="Grid.csd" Type="Node" />
+        <Project Name="Hero.csd" Type="Node" />
+        <Project Name="MainScene.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

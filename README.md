@@ -11,7 +11,7 @@ This is my first mobile game written in c++. It is not published, but in future 
 - All graphics are pixel art made by Ivan Atanassov
 - The game is using Cocos2DX open source game platform.
 - You can find all the code in the Classes folder.
-- For running the game, you must instal cocos2dx and python.
+- For running the game, you must install cocos2dx and python.
 
 Here are a bunch of screenshots:
 
